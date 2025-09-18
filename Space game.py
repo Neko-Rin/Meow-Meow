@@ -30,9 +30,9 @@ laser_surf= pygame.image.load (join('space shooter', 'images', 'laser.png'))
 laser_rect= laser_surf.get_frect(bottomleft= (WINDOW_WIDTH-20, WINDOW_HEIGHT-20))
 #creates an array with 20 items with each item having a set of coords
 
-#keeps the display up
 at_rightedge= False
 at_leftedge = True
+#keeps the display up
 while running:
     #event loop
     for event in pygame.event.get():
